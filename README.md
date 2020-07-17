@@ -1,0 +1,3 @@
+## Install
+
+`php artisan migrate`

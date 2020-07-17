@@ -1,0 +1,34 @@
+{
+    "name": "dfm/bagisto-faq",
+    "description": "Bagisto FAQ Package",
+    "type": "library",
+    "require": {
+        "bagisto/laravel-core": "*",
+        "bagisto/laravel-ui": "*",
+        "konekt/concord": "^1.2",
+        "laravel/framework": "^6.0",
+        "maatwebsite/excel": "3.1.18"
+    },
+    "require-dev": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thien",
+            "email": "thienhm@dfm-engineering.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DFM\\FAQ\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DFM\\FAQ\\Providers\\FaqServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
